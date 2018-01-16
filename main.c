@@ -1,4 +1,6 @@
 #include "inc.h"
+
+
 void netInit(uint8_t* macaddr,uint8_t *ipaddress, uint8_t *netmask, uint8_t *gatewayip, uint16_t port);
 
 uint8_t mac_addr[] 	= {0x02, 0x00, 0xC0, 0xA8, 0x00, 0x01 };
